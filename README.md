@@ -16,7 +16,7 @@ AS A developer
 
 GIVEN a text editor web application ...
 
-[JATE App Main webpage](https://github.com/JohanBotes/jb-SMU19-TextEditor/blob/main/Main%20web%20page%20JAET.png)
+![JATE App Main webpage](https://github.com/JohanBotes/jb-SMU19-TextEditor/blob/main/Main%20web%20page%20JAET.png)
 - WHEN I open my application in my editor
   - THEN I should see a client server folder structure   ✅<br>
 - WHEN I run `npm run start` from the root directory
