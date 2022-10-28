@@ -27,5 +27,3 @@ installBtn.addEventListener('click', async () => {
 window.addEventListener('appinstalled', (event) => {
     window.deferredPrompt = null;
 });
-Footer
-© 2022 GitHub, Inc.
