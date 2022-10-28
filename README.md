@@ -6,21 +6,21 @@ Build a text editor that runs in the browser. A single-page application that mee
 
 This full-stack application isn deployed to Heroku. [Text Editor App](https://sheltered-lowlands-88025.herokuapp.com/).
 
-## User Story
+## App Objective
 
 AS A developer
 - I WANT to create notes or code snippets with or without an internet connection
-- SO THAT I can reliably retrieve them for later use
+  - SO THAT I can reliably retrieve them for later use
 
 ## Evaluation Criteria 
 
 GIVEN a text editor web application
 - WHEN I open my application in my editor
-  - THEN I should see a client server folder structure   ✅
+  - THEN I should see a client server folder structure   ✅<br>
 - WHEN I run `npm run start` from the root directory
-  - THEN I find that my application should start up the backend and serve the client   ✅
+  - THEN I find that my application should start up the backend and serve the client   ✅<br>
 - WHEN I run the text editor application from my terminal
-  - THEN I find that my JavaScript files have been bundled using webpack   ✅
+  - THEN I find that my JavaScript files have been bundled using webpack   ✅<br>
 - WHEN I run my webpack plugins
   - THEN I find that I have a generated HTML file, service worker, and a manifest file   ✅
 - WHEN I use next-gen JavaScript in my application
