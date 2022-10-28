@@ -4,7 +4,7 @@
 
 Build a text editor that runs in the browser. A single-page application that meets the PWA criteria. Additionally, features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline.
 
-This full-stack application isn deployed to Heroku. [Text Editor App](https://sheltered-lowlands-88025.herokuapp.com/)<target="blank">
+This full-stack application isn deployed to Heroku. [JohanBotes Text Editor App](https://sheltered-lowlands-88025.herokuapp.com/)
 
 ## App Objective
 
