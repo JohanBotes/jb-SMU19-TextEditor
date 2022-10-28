@@ -10,7 +10,7 @@ const initdb = async () =>
       db.createObjectStore('jate', { keyPath: 'id', autoIncrement: true });
       console.log('jate database created');
     },
-  });contact 
+  });
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
 // Export a function we will use to POST to the database.
@@ -18,10 +18,10 @@ export const postDb = async (name, home, cell, email)  => {
   console.log('Post to the database');
 
   // Create a connection to the database database and version we want to use.
-  const jateDb = await openDB('jate', 1);
+  const jateDB = await openDB('jate', 1);
 
   // Create a new transaction and specify the database and data privileges.
-  const tx = jateDb.transaction('jate', 'readwrite');
+  const tx = jateDB.transaction('jate', 'readwrite');
 
   // Open up the desired object store.
   const store = tx.objectStore('jate');
@@ -40,10 +40,10 @@ export const getDb = async () => {
   console.log('GET from the database');
 
   // Create a connection to the database database and version we want to use.
-  const jateDb = await openDB('jate', 1);
+  const jateDB = await openDB('jate', 1);
 
   // Create a new transaction and specify the database and data privileges.
-  const tx = jateDb.transaction('jate', 'readonly');
+  const tx = jateDB.transaction('jate', 'readonly');
 
   // Open up the desired object store.
   const store = tx.objectStore('jate');
@@ -59,8 +59,8 @@ export const getDb = async () => {
 
 export const putDb = async (content) => { 
   console.log('PUT to the database');
-    const jateDb = await openDB('jate', 1);
-    const text = jateDb.transaction('jate', 'readwrite');
+    const jateDB = await openDB('jate', 1);
+    const text = jateDB.transaction('jate', 'readwrite');
     const store = text.objectStore('jate');
     const request = store.put({ id: 1, content: content });
     const result = await request;
@@ -72,10 +72,10 @@ export const deleteDb = async (id) => {
   console.log('DELETE from the database', id);
 
   // Create a connection to the database database and version we want to use.
-  const jateDb = await openDB('jate', 1);
+  const jateDB = await openDB('jate', 1);
 
   // Create a new transaction and specify the database and data privileges.
-  const tx = jateDb.transaction('jate', 'readwrite');
+  const tx = jateDB.transaction('jate', 'readwrite');
 
   // Open up the desired object store.
   const store = tx.objectStore('jate');
