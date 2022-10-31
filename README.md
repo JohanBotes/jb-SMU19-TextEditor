@@ -1,4 +1,4 @@
-# 19 - Text Editor with Progressive Web Applications (PWA) Functionalities
+# 19 - Text Editor (JATE) with Progressive Web Applications (PWA) Functionalities Install, Service Worker and Atlas MongoDB
 
 ## Task
 
