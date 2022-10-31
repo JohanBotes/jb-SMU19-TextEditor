@@ -1,6 +1,6 @@
-# Text Editor - (Progressive Web Applications)
+# 19 - Text Editor with Progressive Web Applications (PWA) Functionalities
 
-## Your Task
+## Task
 
 Build a text editor that runs in the browser. A single-page application that meets the PWA criteria. Additionally, features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline.
 
